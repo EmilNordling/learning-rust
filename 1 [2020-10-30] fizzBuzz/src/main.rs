@@ -6,10 +6,10 @@ fn fizz_buzz(iterations: i32) -> (i32, i32, i32) {
     for x in 1..iterations + 1 {
         if x % 15 == 0 {
             fizz_buzz_count += 1;
-        } else if x % 5 == 0 {
-            buzz_count += 1;
         } else if x % 3 == 0 {
             fizz_count += 1;
+        } else if x % 5 == 0 {
+            buzz_count += 1;
         }
     }
 
